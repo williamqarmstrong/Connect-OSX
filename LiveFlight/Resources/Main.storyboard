@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
+        <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -29,7 +30,7 @@
         <!--Options View Controller-->
         <scene sceneID="4EY-lb-lcK">
             <objects>
-                <viewController id="S3t-OD-JTR" customClass="OptionsViewController" customModule="LiveFlight_Connect" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="S3t-OD-JTR" customClass="OptionsViewController" customModule="FMC_Connect" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="641-fg-lYM">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="240"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -417,7 +418,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="LiveFlight_Connect" customModuleProvider="target">
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="FMC_Connect" customModuleProvider="target">
                     <connections>
                         <outlet property="gamepadModeButton" destination="xU1-N0-hRp" id="2CO-G2-kHC"/>
                         <outlet property="logButton" destination="QUf-lS-Umh" id="Tmt-Mv-ekN"/>
@@ -431,8 +432,8 @@
         <!--Window Controller-->
         <scene sceneID="R2V-B0-nI4">
             <objects>
-                <windowController id="B8D-0N-5wS" customClass="WindowController" customModule="LiveFlight_Connect" customModuleProvider="target" sceneMemberID="viewController">
-                    <window key="window" title="LiveFlight Connect" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA" customClass="KeyboardListenerWindow" customModule="LiveFlight_Connect" customModuleProvider="target">
+                <windowController id="B8D-0N-5wS" customClass="WindowController" customModule="FMC_Connect" customModuleProvider="target" sceneMemberID="viewController">
+                    <window key="window" title="LiveFlight Connect" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA" customClass="KeyboardListenerWindow" customModule="FMC_Connect" customModuleProvider="target">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="450" height="410"/>
@@ -456,7 +457,7 @@
             <objects>
                 <tabViewController selectedTabViewItemIndex="0" id="Nod-l2-Bsw" sceneMemberID="viewController">
                     <tabViewItems>
-                        <tabViewItem label="Main" identifier="" image="AppIcon" id="7Ua-0W-3Je"/>
+                        <tabViewItem label="Connect" identifier="" image="AppIcon" id="7Ua-0W-3Je"/>
                     </tabViewItems>
                     <tabView key="tabView" type="noTabsNoBorder" id="9Zh-wd-ryL">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="410"/>
@@ -479,7 +480,7 @@
         <!--View Controller-->
         <scene sceneID="I75-pD-g5N">
             <objects>
-                <viewController id="JqP-a7-f56" customClass="ViewController" customModule="LiveFlight_Connect" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="JqP-a7-f56" customClass="ViewController" customModule="FMC_Connect" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="30H-kZ-p24">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="413"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -532,7 +533,7 @@
                             <box verticalHuggingPriority="750" misplaced="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="Ssi-is-pE6">
                                 <rect key="frame" x="20" y="85" width="410" height="5"/>
                             </box>
-                            <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sQC-6H-fV5" customClass="Status" customModule="LiveFlight_Connect" customModuleProvider="target">
+                            <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sQC-6H-fV5" customClass="Status" customModule="FMC_Connect" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="450" height="411"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RAd-rt-Gl8">

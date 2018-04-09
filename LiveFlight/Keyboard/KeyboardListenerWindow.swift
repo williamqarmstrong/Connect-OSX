@@ -28,7 +28,20 @@ class KeyboardListenerWindow: NSWindow {
         if (event.keyCode == 0) {
             //A key
             if (keydown != true) {
-                connector.atcMenu()
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
             }
             keydown = true
         } else if (event.keyCode == 18) {
