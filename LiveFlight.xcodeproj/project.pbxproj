@@ -297,7 +297,7 @@
 				TargetAttributes = {
 					7E7BA5EE1B89DA5200C73DA0 = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = 56U9FMKHJR;
+						DevelopmentTeam = CY89Y8T6R9;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 1;
@@ -461,7 +461,7 @@
 				CODE_SIGN_ENTITLEMENTS = "LiveFlight/LiveFlight Connect.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 56U9FMKHJR;
+				DEVELOPMENT_TEAM = CY89Y8T6R9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -486,7 +486,7 @@
 				CODE_SIGN_ENTITLEMENTS = "LiveFlight/LiveFlight Connect.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 56U9FMKHJR;
+				DEVELOPMENT_TEAM = CY89Y8T6R9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
